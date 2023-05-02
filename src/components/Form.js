@@ -4,7 +4,6 @@ function Form(props) {
   const [firstName, setFirstName] = useState("Sylvia");
   const [lastName, setLastName] = useState("Woods");
   const [submittedData, setSubmittedData] = useState([]);
-  const [errors, setErrors] = useState([]);
 
   function handleFirstNameChange(event) {
     setFirstName(event.target.value);
